@@ -5,9 +5,11 @@ const HomeHeader = () => {
     <header id="iyu4">
       <div id="iuhj" class="container-width">
         <div id="it8f" class="logo-container">
+        <a href="./">
           <div id="i2wx" class="logo">
             beerok
           </div>
+          </a>
         </div>
         <nav class="menu">
           <div id="ichm" class="menu-item">
@@ -29,9 +31,11 @@ const HomeHeader = () => {
           brands
           <br />
         </div>
+        <a href="./store">
         <div id="ihsv9" class="lead-btn">
           Store
         </div>
+        </a>
       </div>
     </header>
   );

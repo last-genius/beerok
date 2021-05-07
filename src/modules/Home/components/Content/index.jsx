@@ -27,7 +27,7 @@ const Content = () => {
             description="Long-tailed bouquet with an 'it's complicated' relationship status"
           />
           <Card
-            imgurl="https://image.freepik.com/free-photo/beer-mug-wooden-table_44622-199.jpg"
+            imgurl="https://beerbusinessfinance.com/wp-content/uploads/2020/07/Depositphotos_205388102_s-2019.jpg"
             name="Aïoli Camel Toe Maibock"
             description="Velvety hop bouquet like shit and blueberries got together and
                 had a baby"
