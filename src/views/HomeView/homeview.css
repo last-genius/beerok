@@ -95,11 +95,34 @@
     justify-content:space-around;
     flex-flow:wrap;
   }
+  input {
+    width: 400px;
+  }
+  .cartorder{
+    width: 1000px;
+    text-align: right;
+  }
+  .cart-change {
+    float:right;
+    margin-top: 20px;
+    height: 50px;
+  }
   .card{
     background-color:white;
     height:350px;
     width:300px;
     margin-bottom:30px;
+    box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius:2px;
+    transition:all 0.5s ease;
+    font-weight:100;
+    overflow:hidden;
+  }
+  .cart-card{
+    background-color:white;
+    height:75px;
+    width:900px;
+    margin-bottom:10px;
     box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border-radius:2px;
     transition:all 0.5s ease;
@@ -117,6 +140,12 @@
     margin-right: auto;
     display: block;
   }
+  .cart-img-header{
+    object-fit: cover;
+    float: right;
+    width:75px;
+    height:75px;
+  }
   .card-header{
     height:155px;
     background-image:url("//placehold.it/350x250/78c5d6/fff/image1.jpg");
@@ -125,6 +154,11 @@
   }
   .card-body{
     padding:15px 15px 5px 15px;
+    color:#555;
+  }
+  .cart-card-body{
+    float:left;
+    margin: 10px 100px 10px 10px;
     color:#555;
   }
   .card-title{
