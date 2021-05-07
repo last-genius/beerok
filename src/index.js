@@ -3,21 +3,21 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeView from "./views/HomeView";
-// import StoreView from "./views/StoreView";
-// import ContactView from "./views/ContactView";
-// import CartView from "./views/CartView";
+import StoreView from "./views/StoreView";
+import ContactView from "./views/ContactView";
+import CartView from "./views/CartView";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <HomeView />
         </Route>
         <Route path="/home">
           <HomeView />
         </Route>
-        {/* <Route path="/store">
+        <Route path="/store">
           <StoreView />
         </Route>
         <Route path="/contact">
@@ -25,7 +25,7 @@ ReactDOM.render(
         </Route>
         <Route path="/cart">
           <CartView />
-        </Route> */}
+        </Route>
       </Switch>
     </Router>
   </React.StrictMode>,

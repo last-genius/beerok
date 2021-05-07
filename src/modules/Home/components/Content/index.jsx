@@ -209,7 +209,7 @@ const Content = () => {
           <div id="i4k6l" class="badges">
             <div id="i64zq" class="badge">
               <div id="igpfhs" class="badge-header"></div>
-              <img src="img/team1.jpg" class="badge-avatar" />
+              <img src="https://thispersondoesnotexist.com/image" class="badge-avatar" />
               <div class="badge-body">
                 <div class="badge-name">Adam Smith</div>
                 <div class="badge-role">CEO</div>
@@ -222,7 +222,7 @@ const Content = () => {
             </div>
             <div class="badge">
               <div class="badge-header"></div>
-              <img src="img/team2.jpg" class="badge-avatar" />
+              <img src="https://thispersondoesnotexist.com/image?3" class="badge-avatar" />
               <div class="badge-body">
                 <div class="badge-name">John Black</div>
                 <div class="badge-role">Software Engineer</div>
@@ -236,7 +236,7 @@ const Content = () => {
             </div>
             <div class="badge">
               <div class="badge-header"></div>
-              <img src="img/team3.jpg" class="badge-avatar" />
+              <img src="https://thispersondoesnotexist.com/image?2" class="badge-avatar" />
               <div class="badge-body">
                 <div class="badge-name">Jessica White</div>
                 <div class="badge-role">Web Designer</div>

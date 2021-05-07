@@ -11,16 +11,16 @@ const HomeHeader = () => {
         </div>
         <nav class="menu">
           <div id="ichm" class="menu-item">
-            CART
+            <a href="./cart">CART</a>
           </div>
           <div id="iokd" class="menu-item">
-            CONTACT
+            <a href="./contact">CONTACT</a>
           </div>
           <div id="icli" class="menu-item">
-            STORE
+            <a href="./store">STORE</a>
           </div>
           <div id="iaur4l" class="menu-item">
-            HOME
+            <a href="./">HOME</a>
           </div>
         </nav>
         <div class="clearfix"></div>

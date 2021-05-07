@@ -34,19 +34,18 @@
   .menu-item{
     float:right;
     font-size:15px;
-    color:#eee;
+    color: white;
     width:130px;
     padding:10px;
     min-height:50px;
     text-align:center;
     line-height:30px;
-    font-weight:400;
+    font-weight:900;
   }
   .sub-lead-title{
     max-width:650px;
     line-height:30px;
     margin-bottom:30px;
-    color:#c6c6c6;
   }
   .lead-btn{
     margin-top:15px;
@@ -186,7 +185,7 @@
     min-height:350px;
     background-color:#d983a6;
     border-radius:5px;
-    font-weight:100;
+    font-weight:500;
     color:#fff;
     width:90%;
   }
@@ -306,18 +305,30 @@
   .badge-body{
     margin:35px 10px;
   }
+  #iyu4 {
+    padding: 40px 0 40px 0;
+    background-image: url('https://images.unsplash.com/photo-1559818454-1b46997bfe30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80');
+    background-position: center center, center center;
+    background-attachment:scroll, fixed;
+  }
   #i2wx{
     opacity:1;
   }
   #i6ybh{
     font-size:35px;
     line-height:34px;
-    font-weight:300;
+    font-weight:500;
+    color: white;
     margin:47px 0 30px 0;
   }
   @media (max-width: 768px){
     .foot-form-cont{
       width:400px;
     }
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
   }
   
