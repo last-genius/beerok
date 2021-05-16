@@ -2,12 +2,12 @@ import React from "react";
 
 import "./homeview.css";
 import Content from "../../modules/Home/components/Content";
-import HomeHeader from "../../modules/Home/components/HomeHeader";
+import Header from "../../modules/General/components/Header";
 
 const HomeView = () => {
   return (
     <div>
-      <HomeHeader />
+      <Header includeBanner={true} />
       <Content />
     </div>
   );

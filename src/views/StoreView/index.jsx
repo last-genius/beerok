@@ -1,13 +1,13 @@
 import React from "react";
 
 import "../HomeView/homeview.css";
-import Header from "../../modules/Home/components/Header";
+import Header from "../../modules/General/components/Header";
 import Store from "../../modules/Store/components/Store";
 
 const StoreView = () => {
   return (
     <div>
-      <Header />
+      <Header includeBanner={false} />
       <Store />
     </div>
   );
