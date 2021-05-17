@@ -1,6 +1,25 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 const Header = (props) => {
+  const history = useHistory();
+
+  function navigateToHome() {
+    history.push("/");
+  }
+
+  function navigateToStore() {
+    history.push("/store");
+  }
+
+  function navigateToCart() {
+    history.push("/cart");
+  }
+
+  function navigateToContact() {
+    history.push("/contact");
+  }
+
   const includeBanner = props.includeBanner;
   return (
     <header id="iyu4">
@@ -13,18 +32,18 @@ const Header = (props) => {
           </a>
         </div>
         <nav class="menu">
-          <div id="ichm" class="menu-item">
-            <a href="./cart">CART</a>
-          </div>
-          <div id="iokd" class="menu-item">
-            <a href="./contact">CONTACT</a>
-          </div>
-          <div id="icli" class="menu-item">
-            <a href="./store">STORE</a>
-          </div>
-          <div id="iaur4l" class="menu-item">
-            <a href="./">HOME</a>
-          </div>
+        <button id="icli" class="menu-item" onClick={navigateToCart}>
+            CART
+          </button>
+          <button id="icli" class="menu-item" onClick={navigateToContact}>
+            CONTACT
+          </button>
+          <button id="icli" class="menu-item" onClick={navigateToStore}>
+            STORE
+          </button>
+          <button id="icli" class="menu-item" onClick={navigateToHome}>
+            HOME
+          </button>
         </nav>
         <div class="clearfix"></div>
         {includeBanner && (

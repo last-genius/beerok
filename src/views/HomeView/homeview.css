@@ -35,6 +35,8 @@
     float:right;
     font-size:15px;
     color: white;
+    background-color: transparent;
+    border: none;
     width:130px;
     padding:10px;
     min-height:50px;
