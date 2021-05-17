@@ -5,7 +5,7 @@ const Header = (props) => {
   const history = useHistory();
 
   function navigateToHome() {
-    history.push("/");
+    history.replace("/");
   }
 
   function navigateToStore() {
@@ -25,11 +25,9 @@ const Header = (props) => {
     <header id="iyu4">
       <div id="iuhj" class="container-width">
         <div id="it8f" class="logo-container">
-          <a href="./">
-            <div id="i2wx" class="logo">
+          <button id="i2wx" class="logo" onClick={navigateToHome}>
               beerok
-            </div>
-          </a>
+          </button>
         </div>
         <nav class="menu">
         <button id="icli" class="menu-item" onClick={navigateToCart}>
