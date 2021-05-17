@@ -2,7 +2,7 @@ import React from "react";
 
 import "../HomeView/homeview.css";
 import Header from "../../modules/General/components/Header";
-import Cart from "../../modules/Cart/components/Cart";
+import Cart from "../../modules/Cart/components/ShoppingCart";
 
 const CartView = () => {
   return (
