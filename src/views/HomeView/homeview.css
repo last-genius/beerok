@@ -99,7 +99,15 @@
   }
   input {
     width: 400px;
+    margin-top: 10px;
   }
+
+  .error {
+    padding-top: 10px;
+    display: block;
+    color: red;
+  }
+
   .cartorder{
     width: 1000px;
     text-align: right;
