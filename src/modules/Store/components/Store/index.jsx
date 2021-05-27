@@ -91,9 +91,9 @@ class Store extends React.Component {
 
   render() {
     return (
-      <section id="ijk2r" class="flex-sect">
+      <section class="flex-sect">
         <div class="container-width">
-          <div id="irdvr" class="flex-title">
+          <div class="flex-title">
             Store
             <br />
           </div>

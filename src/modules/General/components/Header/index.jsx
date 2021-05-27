@@ -22,37 +22,37 @@ const Header = (props) => {
 
   const includeBanner = props.includeBanner;
   return (
-    <header id="iyu4">
-      <div id="iuhj" class="container-width">
-        <div id="it8f" class="logo-container">
-          <button id="i2wx" class="logo" onClick={navigateToHome}>
+    <header class="header">
+      <div class="container-width">
+        <div class="logo-container">
+          <button class="button logo" onClick={navigateToHome}>
               beerok
           </button>
         </div>
         <nav class="menu">
-        <button id="icli" class="menu-item" onClick={navigateToCart}>
+        <button class="menu-item" onClick={navigateToCart}>
             CART
           </button>
-          <button id="icli" class="menu-item" onClick={navigateToContact}>
+          <button class="menu-item" onClick={navigateToContact}>
             CONTACT
           </button>
-          <button id="icli" class="menu-item" onClick={navigateToStore}>
+          <button class="menu-item" onClick={navigateToStore}>
             STORE
           </button>
-          <button id="icli" class="menu-item" onClick={navigateToHome}>
+          <button class="menu-item" onClick={navigateToHome}>
             HOME
           </button>
         </nav>
         <div class="clearfix"></div>
         {includeBanner && (
           <div>
-            <div id="i6ybh" class="sub-lead-title">
+            <div class="title sub-lead-title">
               We value your beer - and let you choose freely out of many
               hand-picked brands
               <br />
             </div>
             <a href="./store">
-              <div id="ihsv9" class="lead-btn">
+              <div class="lead-btn">
                 Store
               </div>
             </a>

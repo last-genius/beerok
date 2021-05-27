@@ -333,16 +333,16 @@
   .badge-body{
     margin:35px 10px;
   }
-  #iyu4 {
+  .header {
     padding: 40px 0 40px 0;
     background-image: url('https://images.unsplash.com/photo-1559818454-1b46997bfe30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80');
     background-position: center center, center center;
     background-attachment:scroll, fixed;
   }
-  #i2wx{
+  .button {
     opacity:1;
   }
-  #i6ybh{
+  .title {
     font-size:35px;
     line-height:34px;
     font-weight:500;

@@ -44,9 +44,9 @@ const ShoppingCart = () => {
 
   return (
     <div>
-      <section id="ijk2r" class="flex-sect">
+      <section class="flex-sect">
         <div class="container-width">
-          <div id="irdvr" class="flex-title">
+          <div class="flex-title">
             Shopping Cart
           </div>
           <div class="cards">
